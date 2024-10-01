@@ -12,7 +12,7 @@ header {
     height: 72px;
     background-color: #10BBD5;
 
-    .header__logo {
+    .header__container--logo-basket {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -21,13 +21,13 @@ header {
         margin-bottom: 20px;
     }
 
-    .header__basket {
+    .container--basket {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .header__basket--counter {
+    .basket-counter {
         margin-right: 8px;
         color: #F8FDFE;
         font-size: 16px;
@@ -43,7 +43,7 @@ header {
     }
 }
 
-.header__nav {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
