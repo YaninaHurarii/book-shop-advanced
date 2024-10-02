@@ -39,7 +39,7 @@ h1 {
     grid-template: repeat(3, 512px) / repeat(4, 306px);
     grid-gap: 24px 32px;
 
-    .grid__wrapper--card {
+    &--card {
         position: relative;
         background-color: #ffffff;
         border: 1px solid #A8A8A8;
@@ -59,7 +59,7 @@ h1 {
     text-align: start;
     padding-left: 32px;
 
-    .card__body--title-item {
+    &--title-item {
         width: 242px;
         color: #1F1F1F;
         font-weight: 700;
@@ -68,13 +68,13 @@ h1 {
         border-bottom: 1px solid #A8A8A8;
     }
 
-    .card__body--subtitle-item {
+    &--subtitle-item {
         color: #8E8E8E;
         font-size: 16px;
         line-height: 1.5;
     }
 
-    .card__body--price-item {
+    &--price-item {
         color: #E90000;
         font-weight: 500;
         font-size: 24px;

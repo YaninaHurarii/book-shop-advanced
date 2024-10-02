@@ -12,7 +12,7 @@ header {
     height: 72px;
     background-color: #10BBD5;
 
-    .header__container--logo-basket {
+    &--logo-basket {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -43,7 +43,7 @@ header {
     }
 }
 
-.nav {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,7 +55,7 @@ header {
         gap: 40px;
     }
 
-    .nav__list a {
+    &__list a {
         color: #000;
     }
 }
