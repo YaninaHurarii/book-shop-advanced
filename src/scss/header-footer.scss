@@ -1,17 +1,19 @@
 
 /* HEADER */
 
-.header {
+header {
     position: fixed;
     top: 0;
     z-index: 2;
     width: 100%;
+}
+
+.header__container {
     height: 72px;
     background-color: #10BBD5;
 }
 
-
-.header-container__wrapper {
+.header__container-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
