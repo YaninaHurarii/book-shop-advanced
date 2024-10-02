@@ -8,11 +8,11 @@ header {
     width: 100%;
 }
 
-.header__container {
+.header-container {
     height: 72px;
     background-color: #10BBD5;
 
-    &--logo-basket {
+    .header__logo-basket {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -21,7 +21,7 @@ header {
         margin-bottom: 20px;
     }
 
-    .container--basket {
+    .basket {
         display: flex;
         justify-content: center;
         align-items: center;

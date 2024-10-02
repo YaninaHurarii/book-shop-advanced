@@ -1,5 +1,4 @@
 
-
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -24,5 +23,48 @@ a {
     &:hover {
       transform: rotate(20deg);
     }
+}
+
+.button {
+  width: 242px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: #F8FDFE;
+  cursor: pointer;
+}
+
+.button-purple {
+  background-color: #4C394E;
+
+  &:hover {
+    background-color: #744978;
+  }
+}
+
+.button-green {
+  background-color: #4D762D;
+
+  &:hover {
+    background-color: #6DB236;
+  }
+}
+
+.hit {
+  position: absolute;
+  left: 30px;
+  top: 32px;
+}
+
+.new {
+  position: absolute;
+  left: 20px;
+  top: 32px;
+}
+
+.off {
+  position: absolute;
+  left: 70px;
+  top: 32px;
 }
 
