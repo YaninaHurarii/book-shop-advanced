@@ -11,29 +11,29 @@ header {
 .header-container {
     height: 72px;
     background-color: #10BBD5;
+}
 
-    .header__logo-basket {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 52px;
-        padding-top: 16px;
-        margin-bottom: 20px;
-    }
+.logo-basket__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 52px;
+    padding-top: 16px;
+    margin-bottom: 20px;
+}
 
-    .basket {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+.basket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    .basket-counter {
+    &__total-price {
         margin-right: 8px;
         color: #F8FDFE;
         font-size: 16px;
     }
-
-    .count {
+    
+    .count-item {
         position: relative;
         color: #000;
         right: 24px;
