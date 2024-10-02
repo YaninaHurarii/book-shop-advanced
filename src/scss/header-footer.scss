@@ -1,19 +1,17 @@
 
 /* HEADER */
 
-header {
+.header {
     position: fixed;
     top: 0;
     z-index: 2;
     width: 100%;
-}
-
-.header-container {
     height: 72px;
     background-color: #10BBD5;
 }
 
-.logo-basket__wrapper {
+
+.header-container__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,11 +60,11 @@ header {
 
 /* FOOTER */
 
-.footer__container {
+.footer {
     background-color: #4C394E;
     color: #F8FDFE;
 
-    &-copyright {
+    .footer__container {
         display: flex;
         justify-content: space-between;
         font-size: 16px;
